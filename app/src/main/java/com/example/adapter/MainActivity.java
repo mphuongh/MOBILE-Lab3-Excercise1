@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         listViewPersons = findViewById(R.id.listViewPersons);
 
         personArrayList = new ArrayList<>();
-        personArrayList.add(new Person("Ngân", "Vũng Tàu"));
-        personArrayList.add(new Person("Nhi", "Bến Tre"));
-        personArrayList.add(new Person("Phương", "Hồ Chí Minh"));
+        personArrayList.add(new Person("Ngân", " Vũng Tàu"));
+        personArrayList.add(new Person("Nhi", " Bến Tre"));
+        personArrayList.add(new Person("Phương", " Hồ Chí Minh"));
 
         personAdapter = new PersonAdapter(this, personArrayList);
         listViewPersons.setAdapter(personAdapter);
